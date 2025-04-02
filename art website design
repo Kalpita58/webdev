@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-1">
+    <meta name="viewport"content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description" content="Art meseum.">
+    <title>Art Meseum</title>
+    <style>
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            margin:0;
+            padding:0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            text-align: center;
+            background-color: black ;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #928b8b;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">National Gallery of Modern Arts</h1>
+    </header>
+    <nav>
+        <a href="homek">Home</a>
+        <a href="designs">Designs</a>
+        <a href="blogs">Blogs</a>
+        <a href="aboutk">About</a>
+    </nav>
+    <main>
+        <article id="about" class="content">
+            <h2 style="color: white;">About the meseum</h2>
+            <p style="color: white;"> a space dedicated to the display and preservation 
+                of art, often featuring a permanent collection of
+                paintings, sculptures, and other visual art forms,
+                while also hosting temporary exhibitions and cultural 
+                events. </p>
+        </article>
+        <section id="gallery" class="content">
+            <h2 style="color: white;">Gallery</h2>
+            <figure>
+                <img src="/program 1/33_V674D_lowres.jpg" alt="Wheat Field with Cypresses" width="70%">
+                <figcaption style="color: white;">Wheat Field with Cypresses </br> Van Gogh, Vincent</br>
+                    <nav>
+                        <a href="https://en.wikipedia.org/wiki/Wheat_Field_with_Cypresses" target="_blank" style="color: lightblue; text-decoration: none;">
+                        Learn More</a>
+                    </figcaption>
+            </figure>
+            <figure>
+                <img src="/program 1/108176900.jpg.webp" alt="Starry Night" width="70%">
+                <figcaption style="color: white;">Starry Night</br> Van Gogh, Vincent</br>                    <nav>
+                    <a href="https://en.wikipedia.org/wiki/The_Starry_Night" target="_blank" style="color: lightblue; text-decoration: none;">
+                        Learn More
+                    </a>
+                </nav></figcaption>
+            </figure>
+            <figure>
+                <img src="/program 1/49_3JV151_lowres.jpg" alt="Girl With A Pearl Earring" width="70%">
+                <figcaption style="color: white;">Girl With A Pearl Earring</br>Vermeer, Jan</br>
+                    <nav>
+                        <a href="https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring" target="_blank" style="color: lightblue; text-decoration: none;">
+                            Learn More
+                        </a>
+                    </nav>
+                </figcaption>
+            </figure>
+            <video width="100%" controls>
+                <source src="/program 1/10 Artworks to See at the Louvre Museum | Behind the Masterpiece.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="details" class="content" style="color: white;">
+            <h2 style="color: white;">Opening time</h2>
+            <table>
+                <tr>
+                    <th>Detail</th>
+                    <th>Information</th>
+                </tr>
+                <tr>
+                    <td>Opening Hours</td>
+                    <td>8:00am-9:30pm</td>
+                </tr>
+                <tr>
+                    <td>Popular artist</td>
+                    <td>Van gogh,Vermeer etc..</td>
+                </tr>
+                <tr>
+                    <td>Entry Fees</td>
+                    <td>Rs 200 per head</td>
+                </tr>
+            </table>
+        </section>
+        <aside class="content">
+            <p style="color: white;">A timeless collection of grand masters in art prints
+                The top quality, licensed art prints of these greatest paintings are sure to catch the eye balls.</p>
+        </aside>
+        <section id="feedback" class="content" style="color: white;">
+            <h2 style="color: white;">Feedback</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="message">Your Thoughts:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; National Art Meseum. Follow us on <a href="#">Instagram</a>, <a href="#">Twitter</a>.</p>
+    </footer>
+</body>
+</html>
