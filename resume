@@ -1,0 +1,125 @@
+resume.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-container">
+        <header class="profile-header">
+            <img src="/.vscode/program3/images.jpeg" alt="Profile Image" class="profile-pic">
+            <div class="contact-info">
+                <div class="contact-row">
+                    <i class="email"></i> <span><a href="mailto:kalpitajain28@gmail.com">Kalpitajain58@gmail.com</a></span>
+                </div>
+                <div class="contact-row">
+                    <i class="phone number"></i> <span>+91 9890854711</span>
+                </div>
+                <div class="contact-row">
+                    <i class="linkedin"></i> <span>Kalpita@58</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="bio">
+            <h1>Kalpita Jain</h1>
+            <h3>STUDENT</h3>
+            <p><strong>“Aspiring Computer Science Engineer with
+             a passion for innovation, problem-solving, and building the future of technology.”</strong></p>
+        </section>
+
+        <section class="experience">
+            <h2>EXPERIENCE</h2>
+            <div class="exp">
+                <strong>Intership</strong><br> <span><strong>March 2024 - May 2024</strong></span>
+                <p>Summer google internship done for 3 months</p>
+            </div>
+            <div class="exp">
+                <strong>Project</strong><br> <span><strong>Ml model</strong></span>
+                <p>Made an ML model for detection of obstacle for self driiving cars.</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>EDUCATION</h2>
+            <h4>Degree</h4>
+            <p>Bachelor of Engineering </p>
+            <h4>College</h4>
+            <p>MS Ramaiah Institue of Technology</p>
+            <h4>Year of graduation</h4>
+            <p>2023-2027</p>
+        </section>
+
+        <section class="skills">
+            <h2>SKILLS</h2>
+            <div class="skill-container">
+                <figure>
+                    <img src="/.vscode/program3/Screenshot 2025-03-26 at 11.29.55 AM.png" alt="percent" width="100px">
+                    <figcaption style="color: rgb(0, 0, 0);">Dedication</figcaption>
+                </figure>
+                <figure>
+                    <img src="/.vscode/program3/Screenshot 2025-03-26 at 11.29.11 AM.png" alt="percent" width="100px">
+                    <figcaption style="color: rgb(0, 0, 0);">Knowledge</figcaption>
+                </figure>
+                <figure>
+                    <img src="/.vscode/program3/Screenshot 2025-03-26 at 11.29.34 AM.png" alt="percent" width="100px">
+                    <figcaption style="color: rgb(0, 0, 0);">Team work
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/.vscode/program3/Screenshot 2025-03-26 at 11.29.55 AM.png" alt="percent" width="100px">
+                    <figcaption style="color: rgb(0, 0, 0);">Passion</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="references">
+            <h2>REFERENCES</h2>
+            <p><strong>Prof Rakesh </strong> - Proctor, +91 7998378825</p>
+            <p><strong> Ms Pallavi </strong> - Teacher, +91 8987356278</p>
+        </section>
+    </div>
+</body>
+</html>
+
+external.css
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+    background-color: #c9a1c3;
+    }
+    header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    }
+    h2 {
+    font-size: 1.5em;
+    color: #0066cc;
+    }
+    a {
+    color: #0066cc;
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: underline;
+    color: #004080;
+    }
+    /* Box model example */
+    #education, #skills, #experience, #contact {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    }
+    /* Custom cursor */
+    .custom-cursor {
+    cursor: url('cursor.png'), auto;
+    }
